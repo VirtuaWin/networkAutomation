@@ -11,6 +11,7 @@ password = getpass.getpass()
 print('Enter your enable password: ')
 enable_password = getpass.getpass()
 
+# Initialize variables
 first_vlan = ''
 last_vlan = ''
 prefix_vlan = ''
