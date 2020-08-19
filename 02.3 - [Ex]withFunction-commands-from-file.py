@@ -1,5 +1,5 @@
 # Get configuration commands from a file
-with open('iou-l2-campus-cisco-design') as file:
+with open('02.4 - [aux]iou-l2-campus-cisco-design') as file:
     lines = file.read().splitlines()
 print(lines)
 
@@ -10,4 +10,3 @@ print(lines)
 # In addition, it will automatically close the file. The with statement provides a way for ensuring that
 # a clean-up is always used.
 # Opening a file using with is as simple as: with open(filename) as file:
-
