@@ -11,11 +11,12 @@ for IP in file:
     output = net_connect.send_command('show run')
 
     # Get current time
-    date = str(datetime.datetime.now())
+    date = datetime.datetime.now().strftime('%d-%m-%Y_%X')
     # Save configuration to file
-    save_output = open('netmiko_switch_' + IP.strip() + '_' + date + '.conf', 'w')
+    conf_file = 'netmiko_switch_' + IP.strip() + '_' + date + '.conf'
+    save_output = open(conf_file, 'w')
     save_output.write(output)
     save_output.write('\n')
     save_output.close()
 
-    print(output)
+    print('File saved as ' + conf_file)
