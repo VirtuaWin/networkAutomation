@@ -1,5 +1,5 @@
-# Open a file called myswitches which contains the IP addresses of the SWs we are going to configure
-file = open('myswitches')
+# Open a file called 01.5 - [aux]myswitches which contains the IP addresses of the SWs we are going to configure
+file = open('01.5 - [aux]myswitches')
 
 for IP in file:
     print('Configuring SW ' + IP)
