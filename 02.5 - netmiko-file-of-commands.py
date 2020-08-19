@@ -25,7 +25,7 @@ sw6 = {
 all_devices = [sw4, sw5, sw6]
 
 # Get commands from file
-with open('iou-l2-campus-cisco-design') as file:
+with open('02.4 - [aux]iou-l2-campus-cisco-design') as file:
     config_commands = file.read().splitlines()
 
 # For loop to navigate through the list
