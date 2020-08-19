@@ -36,7 +36,7 @@ spanning-tree portfast bpduguard default
 ipv6 nd raguard policy HOST_POLICY
  device-role host
 
-interface range GigabitEthernet 2/0 - 3
+interface range Ethernet 2/0 - 3
  switchport access vlan 100
  switchport voice vlan 101
  switchport host
