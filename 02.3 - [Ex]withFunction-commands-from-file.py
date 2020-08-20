@@ -10,3 +10,7 @@ print(lines)
 # In addition, it will automatically close the file. The with statement provides a way for ensuring that
 # a clean-up is always used.
 # Opening a file using with is as simple as: with open(filename) as file:
+
+# with open('02.9 - [aux]myalcatels') as file:
+#     devices = file.read().strip()
+# print(devices)
